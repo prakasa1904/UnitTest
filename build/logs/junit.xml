@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests" tests="9" assertions="9" failures="0" errors="0" time="0.003959">
+    <testsuite name="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" tests="9" assertions="9" failures="0" errors="0" time="0.003959">
+      <testcase name="testEmptyString" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="7" assertions="1" time="0.002963"/>
+      <testcase name="testSingleNumber" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="15" assertions="1" time="0.000123"/>
+      <testcase name="testTwoNumbers" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="23" assertions="1" time="0.000106"/>
+      <testcase name="testThreeNumbers" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="31" assertions="1" time="0.000103"/>
+      <testcase name="testFourNumbers" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="42" assertions="1" time="0.000263"/>
+      <testcase name="testIgnoreNewline" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="48" assertions="1" time="0.000104"/>
+      <testcase name="testOtherDelims" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="56" assertions="2" time="0.000142"/>
+      <testcase name="testNegativeNotAllow" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="71" assertions="0" time="0.000057"/>
+      <testcase name="testMultipleDelims" class="CalculatorTest" file="/var/www/html/calc/tests/CalculatorTest.php" line="77" assertions="1" time="0.000098"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
